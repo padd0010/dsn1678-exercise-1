@@ -57,12 +57,16 @@ figcaption {
 
 .unit {
     float: left;
-    width: 33.3333%;
+    width: 33%;
 }
 
 h1 {
 	font-size: 1.25rem;
 	padding-left: 1rem;
+}
+
+.border-right {
+	border-right: 1px solid #CCC;
 }
 
 h2 {
