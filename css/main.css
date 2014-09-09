@@ -33,7 +33,7 @@ img {
 figure {
 	width: 100%;
 	margin: 0;
-	/*position: absolute;*/
+	position: relative;
 }
 
 figcaption {
@@ -41,7 +41,9 @@ figcaption {
 	color: #FFF;
 	background-color: rgba(0, 0, 0, 0.4);
 	padding: 1rem;
-	position: relative;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 .grid {
